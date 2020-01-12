@@ -1,5 +1,4 @@
 body {
-  /*font-family: 'Noto Sans', sans-serif;*/
   margin: 0;
 }
 body a.button {
@@ -287,6 +286,7 @@ body footer .footer-menu .menu-hidden {
 body footer .footer-menu .menu-hidden .between {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 8px 0;
   margin-bottom: 16px;
   cursor: pointer;
@@ -298,6 +298,7 @@ body footer .footer-menu .menu-hidden .between .checke_option {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  position: relative;
 }
 body footer .footer-menu .menu-hidden .between .checke_option:hover {
   background-color: rgba(169, 169, 169, 0.212);
@@ -310,6 +311,8 @@ body footer .footer-menu .menu-hidden .between .checke_option .check_input:check
 }
 body footer .footer-menu .menu-hidden .between .check_box {
   position: absolute;
+  top: 15px;
+  left: 14px;
   width: 15px;
   height: 15px;
   background-image: url(../fonts/down.svg);
