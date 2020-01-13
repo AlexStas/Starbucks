@@ -3,6 +3,7 @@ body {
   @hover-color: rgba(169, 169, 169, 0.212);
   @item-color: #1E3932;
   @gray-text: rgba(0, 0, 0, .56);
+  @title-color: white;
 
   a.button {
     display: inline-block;
@@ -69,7 +70,6 @@ body {
     }
   }
 
-
   .header {
     width: 100%;
 
@@ -117,11 +117,7 @@ body {
             padding: 0;
             display: block;
 
-            .nav-2 {
-              padding-left: 24px;
-            }
-
-            .nav-3 {
+            .p-left {
               padding-left: 24px;
             }
 
@@ -142,11 +138,10 @@ body {
 
         .menu-entrance {
           display: flex;
-          flex-direction: row;
+          flex-direction: row-reverse;
           align-items: center;
 
           .entrance-in_now {
-            order: 1;
             font-weight: 600;
 
             .in-button {
@@ -189,7 +184,7 @@ body {
     .title {
       display: flex;
       justify-content: center;
-      color: white;
+      color: @title-color;
       padding: 32px 24px;
 
       .title2 {
@@ -216,7 +211,7 @@ body {
             margin: 0;
 
             a {
-              color: white;
+              color: @title-color;
             }
           }
         }

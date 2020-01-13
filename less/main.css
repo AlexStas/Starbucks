@@ -99,10 +99,7 @@ body .header .header-wraper .header-menu .menu-nav ul {
   padding: 0;
   display: block;
 }
-body .header .header-wraper .header-menu .menu-nav ul .nav-2 {
-  padding-left: 24px;
-}
-body .header .header-wraper .header-menu .menu-nav ul .nav-3 {
+body .header .header-wraper .header-menu .menu-nav ul .p-left {
   padding-left: 24px;
 }
 body .header .header-wraper .header-menu .menu-nav ul a {
@@ -117,11 +114,10 @@ body .header .header-wraper .header-menu .menu-nav ul li {
 }
 body .header .header-wraper .header-menu .menu-entrance {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
 }
 body .header .header-wraper .header-menu .menu-entrance .entrance-in_now {
-  order: 1;
   font-weight: 600;
 }
 body .header .header-wraper .header-menu .menu-entrance .entrance-in_now .in-button {
