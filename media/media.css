@@ -68,4 +68,12 @@
   body .wraper-site .wraper-site2 .site-text {
     max-width: 85%;
   }
+  body footer {
+    padding: 24px;
+  }
+}
+@media (max-width: 480px) {
+  body footer {
+    padding: 24px 16px;
+  }
 }

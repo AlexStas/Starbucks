@@ -1,0 +1,204 @@
+body {
+  @item-color: #1E3932;
+  @hover-color: rgba(169, 169, 169, 0.212);
+  @item-color: #1E3932;
+  @title-color: white;
+  margin: 0;
+  a.button {
+    display: inline-block;
+    background: none;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 7px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: all .2s ease;
+
+    &:hover {
+      background-color: @hover-color;
+    }
+  }
+
+  .wraper-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+
+    .item-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .item-text {
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+
+      .text-wraper {
+        text-align: center;
+        max-width: 83%;
+
+        h2 {
+          font-size: 50px;
+          margin: 0;
+          margin-bottom: 24px;
+
+          span {
+            font-weight: bold;
+          }
+        }
+
+        .text {
+          font-size: 24px;
+          text-align: center;
+          margin-bottom: 32px;
+        }
+      }
+    }
+  }
+  .wraper-title {
+    background-color: @item-color;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+
+    .title {
+      display: flex;
+      justify-content: center;
+      color: @title-color;
+      padding: 32px 24px;
+
+      .title2 {
+        max-width: 60%;
+        text-align: center;
+
+        .title-h1 {
+          h1 {
+            margin: 0;
+            font-weight: 600;
+
+            span {
+              font-size: 24px;
+            }
+          }
+        }
+
+        .title-text {
+          padding-top: 24px;
+
+          p {
+            font-size: 18px;
+            line-height: 1.75;
+            font-weight: 700;
+            margin: 0;
+
+            a {
+              color: @title-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  .item {
+    flex-direction: row-reverse;
+    background-color: @item-color;
+
+    .item-text {
+      .text-wraper {
+        color: white;
+
+        h2 {
+          letter-spacing: 8px;
+        }
+
+        a.play_now {
+          border: 1px solid white;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .item2 {
+    background-color: #D4E9E2;
+
+    .item-text {
+      .text-wraper {
+        h2 {
+          letter-spacing: 8px;
+        }
+
+        color: @item-color;
+
+        a.learn {
+          border: 1px solid @item-color;
+          color: @item-color;
+        }
+      }
+    }
+  }
+
+  .item3 {
+    flex-direction: row-reverse;
+  }
+
+  .item4 {
+    .item-text {
+      .text-wraper {
+        h2 {
+          font-size: 24px;
+        }
+
+        .text {
+          font-size: 18px;
+          line-height: 1.75;
+        }
+
+        a.give_today {
+          color: black;
+        }
+      }
+    }
+  }
+  .wraper-site {
+    box-sizing: border-box;
+
+    .wraper-site2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 32px 40px;
+      text-align: center;
+
+      .site-text {
+        max-width: 60%;
+        box-sizing: inherit;
+
+        .text-info {
+          font-size: 13px;
+          line-height: 1.8;
+
+          p {
+            margin: 0;
+
+            a {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
