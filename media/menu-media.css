@@ -1,0 +1,50 @@
+@media (max-width: 1020px) {
+  body header {
+    position: static;
+  }
+  body .content {
+    padding: 0 0 74px;
+  }
+  body .content .wraper-subnav {
+    position: static;
+    padding: 0 16px;
+  }
+  body .content .contentSubnavMenu {
+    padding: 0 0 0 91px;
+  }
+  body .content .contentSubnavMenu .contentSubnav {
+    display: none;
+  }
+  body .content .contentSubnavMenu .contentMenu {
+    padding: 32px 16px 0 0;
+  }
+  body .content .contentSubnavMenu .contentMenu h1 {
+    padding-bottom: 32px;
+  }
+  body .content .contentSubnavMenu .contentMenu section {
+    padding-bottom: 24px;
+  }
+  body .content .contentSubnavMenu .contentMenu section .menu .wraper-item {
+    margin-bottom: 16px;
+  }
+  body .content .contentSubnavMenu .contentMenu section .menu .wraper-item .menu-item .img {
+    max-width: 72px;
+  }
+}
+@media (max-width: 766px) {
+  body .content .wraper-subnav .subnav {
+    margin: 0;
+  }
+  body .content .wraper-subnav .subnav ul {
+    padding: 0;
+  }
+  body .content .contentSubnavMenu {
+    padding: 0;
+  }
+  body .content .contentSubnavMenu .contentMenu {
+    padding: 32px 16px 0;
+  }
+  body .content .contentSubnavMenu .contentMenu section .menu .wraper-item {
+    width: 100%;
+  }
+}
