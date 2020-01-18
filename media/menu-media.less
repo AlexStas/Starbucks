@@ -8,6 +8,7 @@
       .wraper-subnav {
         position: static;
         padding: 0 16px;
+        margin: 0;
       }
       .contentSubnavMenu {
         padding: 0 0 0 91px;
@@ -35,6 +36,30 @@
         }
       }
     }
+    .footer-fixed {
+      .fixed-wraper {
+        padding: 0 16px 0 91px;
+        height: 74px;
+        .wraper-choose_a_store {
+          flex-direction: column;
+          align-items: flex-start;
+          .choose_a_store {
+            a {
+              .min1020 {
+                display: none;
+              }
+              .media1020 {
+                display: block;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    footer {
+      padding-bottom: 74px;
+    }
   }
 }
 @media (max-width: 766px) {
@@ -57,6 +82,21 @@
               .wraper-item {
                 width: 100%;
               }
+            }
+          }
+        }
+      }
+    }
+    .footer-fixed {
+      .fixed-wraper {
+        padding: 0 16px;
+        height: 74px;
+        .wraper-choose_a_store {
+          width: 100%;
+          .choose_a_store {
+            width: 100%;
+            a {
+              min-width: 100%;
             }
           }
         }

@@ -18,6 +18,7 @@ body .content {
 }
 body .content .wraper-subnav {
   padding: 0 48px;
+  margin: -3px;
   border: 1px solid #dbd9d7;
   position: fixed;
   width: 100%;
@@ -130,4 +131,93 @@ body .content .contentSubnavMenu .contentMenu section .menu .wraper-item .menu-i
   line-height: 1.263;
   font-weight: 400;
   margin: 0;
+}
+body .content .contentSubnavMenu .contentMenu section .menu .wraper-item .menu-item a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+body .footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+body .footer-fixed .fixed-wraper {
+  padding: 0 9% 0 400px;
+  height: 94px;
+  background-color: #2d2926;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .footer-fixed .fixed-wraper .wraper-choose_a_store {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+}
+body .footer-fixed .fixed-wraper .wraper-choose_a_store .choose_a_store {
+  margin: 24px 0;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+body .footer-fixed .fixed-wraper .wraper-choose_a_store .choose_a_store a {
+  padding-bottom: 8px;
+  text-decoration: none;
+  box-shadow: inset 0 -1.5px 0 hsla(0, 0%, 100%, 0.3);
+  min-height: 24px;
+  min-width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 0;
+}
+body .footer-fixed .fixed-wraper .wraper-choose_a_store .choose_a_store a p {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+body .footer-fixed .fixed-wraper .wraper-choose_a_store .choose_a_store a .media1020 {
+  display: none;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+body .footer-fixed .fixed-wraper .wraper-choose_a_store .choose_a_store a .min1020 {
+  margin: 0;
+}
+body .footer-fixed .fixed-wraper .wraper-choose_a_store .choose_a_store a .min1020 span {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: 400;
+}
+body .footer-fixed .fixed-wraper .wraper-choose_a_store .choose_a_store a .min1020 strong {
+  color: #fff;
+  display: block;
+}
+body .footer-fixed .fixed-wraper .wraper-choose_a_store .choose_a_store a svg {
+  width: 18px;
+  height: 18px;
+  overflow: visible;
+  margin-left: 8px;
+  fill: #fff;
+}
+body .footer-fixed .fixed-wraper .open-card {
+  margin-left: 24px;
+}
+body .footer-fixed .fixed-wraper .open-card .shop-svg {
+  background-image: url(/fonts/shop.svg);
+  width: 32px;
+  height: 32px;
+}
+body footer {
+  padding-bottom: 94px;
 }
