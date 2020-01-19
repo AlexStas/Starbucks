@@ -29,6 +29,9 @@
   }
 }
 @media (max-width: 766px) {
+  body .header .header-wraper {
+    justify-content: space-between;
+  }
   body .header .header-wraper .header-logo {
     margin: 16px 0;
     width: 40px;
@@ -40,6 +43,9 @@
   }
   body .header .header-wraper .header-menu {
     display: none;
+  }
+  body .header .header-wraper .head-menu_button {
+    display: block;
   }
   body .wraper-title .title .title2 {
     max-width: 100%;

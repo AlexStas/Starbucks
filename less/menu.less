@@ -1,6 +1,8 @@
 body {
   margin: 0;
   @gray-text: rgba(0, 0, 0, .56);
+  @footgr-color: hsla(0,0%,100%,.7);
+  @bg-color: #f7f7f7;
   ul {
     list-style: none;
     margin: 0;
@@ -22,7 +24,7 @@ body {
       position: fixed;
       width: 100%;
       z-index: 111;
-      background-color: #f7f7f7;
+      background-color: @bg-color;
       .subnav {
         margin-left: 50px;
         ul {
@@ -52,7 +54,7 @@ body {
     }
     .contentSubnavMenu {
       padding: 53px 0 0 123px;
-      background-color: #f7f7f7;
+      background-color: @bg-color;
       display: flex;
       .contentSubnav {
         padding: 16px 0;
@@ -114,7 +116,6 @@ body {
                 .img {
                   width: 100%;
                   max-width: 112px;
-                  //height: 112px;
                   margin-right: 16px;
                   img {
                     max-width: 100%;
@@ -156,7 +157,6 @@ body {
       padding: 0 9% 0 400px;
       height: 94px;
       background-color: #2d2926;
-      color: #fff;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -175,7 +175,7 @@ body {
           a {
             padding-bottom: 8px;
             text-decoration: none;
-            box-shadow: inset 0 -1.5px 0 hsla(0,0%,100%,.3);
+            box-shadow: inset 0 -1.5px 0 @footgr-color;
             min-height: 24px;
             min-width: 240px;
             display: flex;
@@ -190,12 +190,12 @@ body {
             }
             .media1020 {
               display: none;
-              color: hsla(0,0%,100%,.7);
+              color: @footgr-color;
             }
             .min1020 {
               margin: 0;
               span {
-                color: hsla(0,0%,100%,.7);
+                color: @footgr-color;
                 font-weight: 400;
               }
               strong {

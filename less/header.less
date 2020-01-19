@@ -120,6 +120,26 @@ body {
           }
         }
       }
+      .head-menu_button {
+        display: none;
+        .menu-button {
+          button {
+            border: none;
+            border-radius: 50%;
+            background: none;
+            min-width: 40px;
+            min-height: 40px;
+            cursor: pointer;
+            transition: all .2s ease-out;
+            &:hover {
+              background-color: @hover-color;
+            }
+            svg {
+              fill: rgba(0, 0, 0, 0.404);
+            }
+          }
+        }
+      }
     }
   }
 }
