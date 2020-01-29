@@ -1,3 +1,4 @@
 {
-  "window.zoomLevel": -0.15
+  "window.zoomLevel": -0.15,
+  "files.defaultLanguage": "html"
 }
