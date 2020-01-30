@@ -38,6 +38,10 @@
   }
 }
 @media (max-width: 990px) {
+  body .wraper .main-content .content .content-posts_featured .posts-featured-grid-wrap {
+    margin: 0 40px;
+    width: calc(100% - 80px);
+  }
   body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .posts_featured-title h1 {
     font-size: 40px;
   }
@@ -52,6 +56,13 @@
   }
 }
 @media (max-width: 768px) {
+  body .wraper .main-content .content .content-posts_featured .posts-featured-grid-wrap {
+    margin: 0 auto;
+    width: 100%;
+  }
+  body .wraper .main-content .content .content-posts_featured .posts-featured-grid-wrap .posts-featured-grid .posts_grid-item .grid_item-link .grid_item-img-wrap .grid_item-images {
+    padding-top: 100%;
+  }
   body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .article-images .article-hero {
     padding-top: 90%;
   }
@@ -77,5 +88,45 @@
   }
   body .wraper .site-footer .site-footer-container .language-switcher {
     flex-flow: column nowrap;
+  }
+}
+@media (max-width: 570px) {
+  body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .posts_featured-title h1 {
+    font-size: 20px;
+  }
+  body .wraper .main-content .content .content-posts_featured .posts-featured-grid-wrap .posts-featured-grid {
+    flex-flow: column nowrap;
+    width: calc(100% + 20px);
+  }
+  body .wraper .main-content .content .content-posts_featured .posts-featured-grid-wrap .posts-featured-grid .posts_grid-item {
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    margin: 0 10px 20px;
+  }
+  body .wraper .main-content .content .content-posts_featured .posts-featured-grid-wrap .posts-featured-grid .posts_grid-item .grid_item-link .grid_item-title {
+    width: 80%;
+  }
+  body .wraper .main-content .content .content-wrap {
+    width: calc(100% + 20px);
+    margin: 0 -10px 20px;
+  }
+  body .wraper .main-content .content .content-wrap .layout-2col {
+    flex-flow: column nowrap;
+  }
+  body .wraper .main-content .content .content-wrap .layout-2col .layout-sidebar {
+    padding: 10px 20px;
+    max-width: calc(100% - 20px);
+    width: calc(100% - 20px);
+  }
+  body .wraper .main-content .content .content-wrap .layout-2col .layout-block {
+    max-width: calc(100% - 20px);
+    width: calc(100% - 20px);
+  }
+  body .wraper .main-content .content .content-wrap .tabs-viewed .tab-group .tab-content .card-grid {
+    flex-flow: column nowrap;
+  }
+  body .wraper .main-content .content .content-wrap .tabs-viewed .tab-group .tab-content .card-grid .card-grid-item {
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
   }
 }

@@ -87,6 +87,10 @@
       .main-content {
         .content {
           .content-posts_featured {
+            .posts-featured-grid-wrap {
+              margin: 0 40px;
+              width: calc(100% - 80px);
+            }
             .posts-featured {
               .article-posts_featured {
                 .posts_featured-link {
@@ -145,6 +149,21 @@
       .main-content {
         .content {
           .content-posts_featured {
+            .posts-featured-grid-wrap {
+              margin: 0 auto;
+              width: 100%;
+              .posts-featured-grid {
+                .posts_grid-item {
+                  .grid_item-link {
+                    .grid_item-img-wrap {
+                      .grid_item-images {
+                        padding-top: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+            }
             .posts-featured {
               .article-posts_featured {
                 .posts_featured-link {
@@ -199,6 +218,74 @@
             flex-flow: column nowrap;
           }
         }
+      }
+    }
+  }
+}
+@media (max-width: 570px) {
+  body {
+    .wraper {
+      .main-content {
+       .content {
+        .content-posts_featured {
+          .posts-featured {
+            .article-posts_featured {
+              .posts_featured-link {
+                .posts_featured-title {
+                  h1 {
+                    font-size: 20px;
+                  }
+                }
+              }
+            }
+          }
+          .posts-featured-grid-wrap {
+            .posts-featured-grid {
+              flex-flow: column nowrap;
+              width: calc(100% + 20px);
+              .posts_grid-item {
+                width: calc(100% - 20px);
+                max-width: calc(100% - 20px);
+                margin: 0 10px 20px;
+                .grid_item-link {
+                  .grid_item-title {
+                    width: 80%;
+                  }    
+                }
+              }
+            }
+          }
+        }
+        .content-wrap {
+          width: calc(100% + 20px);
+          margin: 0 -10px 20px;
+          .layout-2col {
+            flex-flow: column nowrap;
+            .layout-sidebar {
+              padding: 10px 20px;
+              max-width: calc(100% - 20px);
+              width: calc(100% - 20px);
+            }
+            .layout-block {
+              max-width: calc(100% - 20px);
+              width: calc(100% - 20px);
+            }
+          }
+          .tabs-viewed {
+            .tab-group {
+              .tab-content {
+                .card-grid {
+                  flex-flow: column nowrap;
+                  .card-grid-item {
+                    width: calc(100% - 20px);
+                    max-width: calc(100% - 20px);
+                  }
+                }
+              }
+            }
+          }
+        }
+       }
       }
     }
   }
