@@ -14,11 +14,8 @@ body .wraper {
   width: 100%;
 }
 body .wraper .header {
-  text-align: center;
   box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.1);
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   z-index: 100;
   color: #2b2b2b;
@@ -31,8 +28,8 @@ body .wraper .header .header-wraper_logo_nav {
   padding: 0 40px;
   margin: 0 auto;
   background-color: #fff;
+  max-width: 1360px;
   width: 100%;
-  max-width: 1440px;
 }
 body .wraper .header .header-wraper_logo_nav .logo {
   max-width: 119px;
@@ -153,8 +150,8 @@ body .wraper .header .header-wraper_logo_nav .nav-navigator .site-navigator-wrap
   margin: 0;
 }
 body .wraper .header .header-wraper_logo_nav .nav-navigator .site-navigator-wraper .navigator-wraper .navigator-site {
-  width: 400px;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   flex-flow: nowrap;
   margin-left: auto;
@@ -248,7 +245,7 @@ body .wraper .main-content {
 }
 body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1420px;
   padding-top: 20px;
 }
 body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link {
@@ -635,7 +632,7 @@ body .wraper .main-content .content .content-wrap .tabs-viewed .tab-control .tab
   flex-flow: row nowrap;
   justify-content: center;
   font-size: 15px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   line-height: 1.6666;
   list-style: none;
   margin: 0 auto;
@@ -851,7 +848,6 @@ body .wraper .site-footer {
 body .wraper .site-footer .site-footer-container {
   margin: 0 auto;
   padding: 0 10px;
-  width: 100%;
 }
 body .wraper .site-footer .site-footer-container .logo-container {
   height: 76px;

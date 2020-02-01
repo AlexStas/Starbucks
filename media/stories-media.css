@@ -66,6 +66,13 @@
   body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .article-images .article-hero {
     padding-top: 90%;
   }
+  body .wraper .main-content .content .content-wrap .tabs-viewed .tab-control .tab-list-contain .tab-list {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  body .wraper .main-content .content .content-wrap .tabs-viewed .tab-control .tab-list-contain .tab-list .tab-item a {
+    padding: 10px;
+  }
   body .wraper .main-content .content .content-wrap .tabs-viewed .tab-group .tab-content .card-grid .card-grid-item {
     flex-basis: calc(50% - 20px);
     max-width: calc(50% - 20px);
@@ -121,6 +128,7 @@
   body .wraper .main-content .content .content-wrap .layout-2col .layout-block {
     max-width: calc(100% - 20px);
     width: calc(100% - 20px);
+    padding: 10px 20px;
   }
   body .wraper .main-content .content .content-wrap .tabs-viewed .tab-group .tab-content .card-grid {
     flex-flow: column nowrap;
