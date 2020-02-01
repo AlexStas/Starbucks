@@ -36,10 +36,18 @@
   body .wraper .main-content {
     margin: 70px auto 100px;
   }
+  body .wraper .main-content .content .content-wrap .layout-2col .layout-block {
+    flex-basis: calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    width: calc(100% - 40px);
+  }
 }
 @media (max-width: 990px) {
   body .wraper .main-content .content .content-posts_featured .posts-featured-grid-wrap {
     margin: 0 40px;
+    width: calc(100% - 80px);
+  }
+  body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .posts_featured-title {
     width: calc(100% - 80px);
   }
   body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .posts_featured-title h1 {
@@ -66,6 +74,9 @@
   body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .article-images .article-hero {
     padding-top: 90%;
   }
+  body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .posts_featured-title {
+    width: calc(100% - 20px);
+  }
   body .wraper .main-content .content .content-wrap .tabs-viewed .tab-control .tab-list-contain .tab-list {
     font-size: 14px;
     letter-spacing: 1px;
@@ -83,6 +94,9 @@
   }
   body .wraper .main-content .content .content-wrap .layout-2col .layout-block {
     padding: 20px;
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    width: calc(50% - 20px);
   }
   body .wraper .main-content .content .content-wrap .layout-2col .layout-block .posts-list {
     margin: 20px 0;
@@ -99,7 +113,7 @@
 }
 @media (max-width: 570px) {
   body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .posts_featured-title h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
   body .wraper .main-content .content .content-posts_featured .posts-featured-grid-wrap .posts-featured-grid {
     flex-flow: column nowrap;
@@ -126,6 +140,7 @@
     width: calc(100% - 20px);
   }
   body .wraper .main-content .content .content-wrap .layout-2col .layout-block {
+    flex-basis: calc(100% - 20px);
     max-width: calc(100% - 20px);
     width: calc(100% - 20px);
     padding: 10px 20px;
