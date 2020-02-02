@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-size: 1.6rem;
@@ -15,11 +18,8 @@ body {
     width: 100%;
 
     .header {
-      //text-align: center;
       box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, .1);
       position: fixed;
-      //top: 0;
-      //left: 0;
       width: 100%;
       z-index: 100;
       color: #2b2b2b;
@@ -32,7 +32,7 @@ body {
         padding: 0 40px;
         margin: 0 auto;
         background-color: #fff;        
-        max-width: 1360px;
+        max-width: 1440px;
         width: 100%;
 
         .logo {
@@ -168,7 +168,6 @@ body {
               }
 
               .navigator-site {
-                //width: 400px;
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
@@ -432,6 +431,7 @@ body {
                     position: absolute;
                     text-shadow: 0 4px 4px rgba(0, 0, 0, .15);
                     z-index: 1;
+                    width: 100%;
 
                     span {
                       display: block;
@@ -521,7 +521,6 @@ body {
                     padding: 16px;
                     text-shadow: none;
                     text-transform: none;
-                    font-size: 100%;
                   }
 
                   .signup-button {

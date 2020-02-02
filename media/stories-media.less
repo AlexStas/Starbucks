@@ -72,6 +72,7 @@
           .logo {
             min-width: 108px;
             max-width: 108px;
+            margin: 0;
           }
         }
       }
@@ -116,6 +117,8 @@
             }
           }
           .content-wrap {
+            margin: 0 40px 40px;
+            width: calc(100% - 80px);
             .layout-2col {
               .layout-block {
                 .posts-list {
@@ -191,7 +194,15 @@
               }
             }
           }
-          .content-wrap {
+          .content-wrap-mobile-first {
+            width: calc(100% + 20px);
+            margin: 0 -10px 20px;
+          }
+          .content-wrap-mobile {
+            width: 100%;
+            margin: 0 auto 20px;
+          }
+          .content-wrap {           
             .tabs-viewed {
               .tab-control {
                 .tab-list-contain {
@@ -278,11 +289,6 @@
                 width: calc(100% - 20px);
                 max-width: calc(100% - 20px);
                 margin: 0 10px 20px;
-                .grid_item-link {
-                  .grid_item-title {
-                    width: 80%;
-                  }    
-                }
               }
             }
           }

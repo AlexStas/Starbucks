@@ -32,6 +32,7 @@
   body .wraper .header .header-wraper_logo_nav .logo {
     min-width: 108px;
     max-width: 108px;
+    margin: 0;
   }
   body .wraper .main-content {
     margin: 70px auto 100px;
@@ -52,6 +53,10 @@
   }
   body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .posts_featured-title h1 {
     font-size: 40px;
+  }
+  body .wraper .main-content .content .content-wrap {
+    margin: 0 40px 40px;
+    width: calc(100% - 80px);
   }
   body .wraper .main-content .content .content-wrap .layout-2col .layout-block .posts-list {
     margin: 20px 0;
@@ -76,6 +81,14 @@
   }
   body .wraper .main-content .content .content-posts_featured .posts-featured .article-posts_featured .posts_featured-link .posts_featured-title {
     width: calc(100% - 20px);
+  }
+  body .wraper .main-content .content .content-wrap-mobile-first {
+    width: calc(100% + 20px);
+    margin: 0 -10px 20px;
+  }
+  body .wraper .main-content .content .content-wrap-mobile {
+    width: 100%;
+    margin: 0 auto 20px;
   }
   body .wraper .main-content .content .content-wrap .tabs-viewed .tab-control .tab-list-contain .tab-list {
     font-size: 14px;
@@ -123,9 +136,6 @@
     width: calc(100% - 20px);
     max-width: calc(100% - 20px);
     margin: 0 10px 20px;
-  }
-  body .wraper .main-content .content .content-posts_featured .posts-featured-grid-wrap .posts-featured-grid .posts_grid-item .grid_item-link .grid_item-title {
-    width: 80%;
   }
   body .wraper .main-content .content .content-wrap {
     width: calc(100% + 20px);

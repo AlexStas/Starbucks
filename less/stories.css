@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-size: 1.6rem;
@@ -28,7 +31,7 @@ body .wraper .header .header-wraper_logo_nav {
   padding: 0 40px;
   margin: 0 auto;
   background-color: #fff;
-  max-width: 1360px;
+  max-width: 1440px;
   width: 100%;
 }
 body .wraper .header .header-wraper_logo_nav .logo {
@@ -378,6 +381,7 @@ body .wraper .main-content .content .content-posts_featured .posts-featured-grid
   position: absolute;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   z-index: 1;
+  width: 100%;
 }
 body .wraper .main-content .content .content-posts_featured .posts-featured-grid-wrap .posts-featured-grid .posts_grid-item .grid_item-link .grid_item-title span {
   display: block;
@@ -457,7 +461,6 @@ body .wraper .main-content .content .content-wrap .layout-2col .layout-sidebar .
   padding: 16px;
   text-shadow: none;
   text-transform: none;
-  font-size: 100%;
 }
 body .wraper .main-content .content .content-wrap .layout-2col .layout-sidebar .signup-block .signup-form .signup-button {
   height: 55px;
