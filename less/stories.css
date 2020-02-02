@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-size: 1.6rem;
   overflow-x: hidden;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 body a {
   text-decoration: none;
@@ -644,7 +645,7 @@ body .wraper .main-content .content .content-wrap .tabs-viewed .tab-control .tab
   text-transform: uppercase;
 }
 body .wraper .main-content .content .content-wrap .tabs-viewed .tab-control .tab-list-contain .tab-list .tab-item {
-  display: block;
+  display: inline-block;
 }
 body .wraper .main-content .content .content-wrap .tabs-viewed .tab-control .tab-list-contain .tab-list .tab-item a {
   color: black;
